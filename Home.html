@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DOORSTEP📦</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class="title">DOORSTEP📦</h1>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Registration.html">Register</a>
+      <a href="Dashboard.html">Dashboard</a>
+    </nav>
+
+    <div class="clock-widget">
+      <h2>Current Time</h2>
+    <div id="clock">--:--:--</div>
+
+      <label for="timezone-select">Choose Timezone:</label>
+        <select id="timezone-select">
+           <option value="local">Local Time</option>
+           <option value="Africa/Nairobi">East Africa (Nairobi)</option>
+           <option value="UTC">UTC</option>
+           <option value="America/New_York">New York</option>
+           <option value="Europe/London">London</option>
+           <option value="Asia/Tokyo">Tokyo</option>
+        </select>
+
+  <br><br>
+      <button id="toggle-mode">Toggle Light/Dark Mode</button>
+
+      <label for="theme-select">Theme:</label>
+        <select id="theme-select">
+           <option value="default">Default</option>
+          <option value="sunset">Sunset</option>
+          <option value="ocean">Ocean</option>
+        </select>
+    </div>
+
+  </header>
+
+  <main>
+    <section class="welcome-section">
+      <p>
+        Welcome to DOORSTEP📦 – Fast, Reliable Delivery at Your Doorstep.<br>
+        At DOORSTEP📦, we make delivering your essentials easier than ever. Whether it’s groceries, food, parcels, or everyday items,
+        our trusted delivery service ensures your order gets to you quickly and safely—anytime, anywhere.<br>
+        With real-time tracking, secure payments, and friendly customer support, we’re here to keep your life moving smoothly.
+        Just tap, track, and relax—we’ll take care of the rest.
+      </p>
+      <ul>
+        <li>📦 Fast Deliveries</li>
+        <li>🛒 Local & Nationwide Options</li>
+        <li>📍 Live Tracking</li>
+        <li>💳 Secure Payments</li>
+      </ul>
+    </section>
+
+    <section class="gallery">
+      <div class="gallery-item">
+        <img src="delivered.jpg" alt="Secure Packaging">
+        <div class="gallery-caption">Secure Packaging</div>
+      </div>
+      <div class="gallery-item">
+        <img src="delivery.jpeg" alt="Express Delivery">
+        <div class="gallery-caption">Express Delivery</div>
+      </div>
+      <div class="gallery-item">
+        <img src="package.jpeg" alt="Doorstep Drop-off">
+        <div class="gallery-caption">Doorstep Drop-off</div>
+      </div>
+    </section>
+  </main>
+  <script src="main.js"></script>
+</body>
+</html>

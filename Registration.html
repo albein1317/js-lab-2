@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register - DOORSTEP📦</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1 class="title">DOORSTEP📦</h1>
+    <nav>
+      <a href="Home.html">Home</a>
+      <a href="Contact.html">Contact</a>
+      <a href="Dashboard.html">Dashboard</a>
+    </nav>
+  </header>
+  <main>
+    <section class="form-section">
+      <h2>Registration</h2>
+      <p>Please fill in the details below</p>
+      <form>
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="username">Your Username:</label>
+        <input type="text" id="username" name="username" required>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required><br><br>
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required>
+
+        <label for="address">Your Home Address:</label>
+        <input type="text" id="address" name="address">
+
+        <label for="pwd">Enter Password:</label>
+        <input type="password" id="pwd" name="pwd" required>
+
+        <label for="confirm_pwd">Confirm Password:</label>
+        <input type="password" id="confirm_pwd" name="confirm_pwd" required><br><br>
+
+        <label for="role">User Role:</label>
+        <select id="role" name="role" required>
+          <option value="buyer">Buyer</option>
+          <option value="seller">Seller</option>
+          <option value="delivery guy">Delivery Guy</option>
+        </select><br><br>
+
+        <button type="submit">Register</button>
+      </form>
+      <img src="delivery man.webp" alt="Delivery Man" class="gallery-img">
+    </section>
+  </main>
+
+  <script src="main.js"></script>
+</body>
+</html>
